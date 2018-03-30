@@ -1,0 +1,25 @@
+{
+  "name": "mkdocs-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "deploy": "mkdocs build && s3-website deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan-maldonado/mkdocs-s3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alan-maldonado/mkdocs-s3/issues"
+  },
+  "homepage": "https://github.com/alan-maldonado/mkdocs-s3#readme",
+  "devDependencies": {
+    "s3-website": "^3.3.0"
+  }
+}
