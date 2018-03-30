@@ -7,6 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
+    "start": "mkdocs serve",
+    "postinstall": "pip install -r requirements.txt",
+    "dev": "mkdocs serve",
+    "build": "mkdocs build",
     "deploy": "mkdocs build && s3-website deploy"
   },
   "repository": {
